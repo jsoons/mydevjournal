@@ -1,0 +1,12 @@
+{
+  "name": "20210417vuerunning",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "author": "Jan Soons <jsoons@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "2.4.7",
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0"
+  }
+}

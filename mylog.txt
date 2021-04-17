@@ -6,3 +6,6 @@ vue eerst
 
 project 20210417vuerunning
 quasar opzetten , gebruik ook van yarn
+2de pagina opzetten, ref met /#/mypage
+quasar mode add capacitor
+quasar build -m capacitor -T android -d

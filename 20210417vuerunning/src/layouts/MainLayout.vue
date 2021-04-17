@@ -91,6 +91,30 @@ const linksData = [
     caption: 'Community Quasar projects',
     icon: 'favorite',
     link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'Quasar Awesome',
+    caption: 'Community Quasar projects',
+    icon: 'face',
+    link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'Quasar Awesome',
+    caption: 'Community Quasar projects',
+    icon: 'done',
+    link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'Quasar Awesome',
+    caption: 'Community Quasar projects',
+    icon: 'trending_up',
+    link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'COC',
+    caption: 'Community Quasar projects',
+    icon: 'explore',
+    link: '/#/mypage'
   }
 ]
 
