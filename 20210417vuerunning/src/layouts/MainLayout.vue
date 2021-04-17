@@ -115,6 +115,12 @@ const linksData = [
     caption: 'Community Quasar projects',
     icon: 'explore',
     link: '/#/mypage'
+  },
+  {
+    title: 'Icons',
+    caption: 'Icons',
+    icon: 'two_wheeler',
+    link: 'https://fonts.google.com/icons?selected=Material+Icons'
   }
 ]
 
