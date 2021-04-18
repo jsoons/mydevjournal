@@ -6,14 +6,17 @@
           :key="link.title"
           v-bind="link"
         />
+    <message>My Message</message>
+
   </q-page>
 </template>
 
 <script>
 import EssentialLink from 'components/EssentialLink.vue'
 import Message from 'components/Message.vue'
+// import Message from '../components/Message.vue'
 
-Vue.component('app-message', Message)
+// Vue.component('app-message', Message)
 
 const linksData = [
   {
@@ -32,10 +35,9 @@ const linksData = [
 
 export default {
   name: 'PageIndex',
-  components: { EssentialLink },
+  components: { EssentialLink, Message },
   data () {
     return {
-      leftDrawerOpen: false,
       EssentialLinks: linksData
     }
   }
