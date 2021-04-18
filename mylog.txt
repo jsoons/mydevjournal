@@ -16,3 +16,5 @@ pogingen om tweede vue component te integreren
 kijk ook naar https://www.youtube.com/watch?v=FWQSuskE5UA
 
 `
+20210418
+component werkend in dev
