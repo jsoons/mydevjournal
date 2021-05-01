@@ -5,9 +5,15 @@ const app = Vue.createApp({
             showBooks: true, 
             title: 'The Final Empire', 
             author: 'Brandon', 
+            books: [
+                {title:'A new hope', author: 'Billy'},
+                {title:'Oddissee', author: 'Homerus'},
+                {title:'Staatsblad', author: 'RVS'}
+            ],
             age: 45, 
             x: 0, 
-            y: 0
+            y: 0, 
+            url: "https://www.opensource.com"
         }
     }, 
     methods: {

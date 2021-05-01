@@ -42,6 +42,17 @@
         <div class="box" @dblclick="handleEvent">double click</div>
         <div class="box" @mousemove="handleMouseMove">mousemove -- {{ x }} , {{ y }} </div>
 
+        <div>
+            <ul>
+                <li v-for="book in books">{{book.title}} -- {{book.author}}</li>
+
+            </ul>
+        </div>
+
+        <div>
+            <a :href="url">TestSite</a>
+        </div>
+
     </div>
     <script src="app.js"></script>
 </body>
